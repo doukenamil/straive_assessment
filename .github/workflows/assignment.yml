@@ -1,0 +1,13 @@
+name: Assignment GitHub Action
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  assignment:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: k1ngb3an5ley@gmail.com
+        run: echo "Hello, world!"
